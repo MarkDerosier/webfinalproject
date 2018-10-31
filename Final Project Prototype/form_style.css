@@ -1,0 +1,42 @@
+body {
+}
+
+h1 {
+    text-align: center;
+}
+
+#menu {
+    background-color: #008000;
+	text-align: left;
+	color: black;
+	width: 100%;
+	padding: 1px;
+}
+
+#container {
+	background-color: white;
+	width: 100%;
+}
+
+#formBox {
+	position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 4px solid green;
+    height: auto;
+    width: 95%;
+    text-align: center;    
+    font-size: 25px;    
+    line-height: 45px;    
+    background-color: #b0f4a1;
+}
+
+#footer {
+    position: absolute;
+    background-color: #008000;
+    text-align: left;
+	width: 99%;
+	padding: 1px;
+    margin-top: 850px;
+	clear: both;
+}

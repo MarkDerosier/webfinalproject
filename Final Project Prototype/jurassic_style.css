@@ -1,0 +1,88 @@
+body {
+}
+
+h1 {
+    text-align: center;
+}
+
+#menu {
+    background-color: #008000;
+	text-align: left;
+	color: black;
+	width: 100%;
+	padding: 1px;
+}
+
+#container {
+	background-color: white;
+	width: 100%;
+}
+
+#brachBox {
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 650px;
+    border: 4px solid green;
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 45px;
+    background-color: #b0f4a1;
+}
+
+#ceraBox {
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 650px;
+    margin-top: 600px;
+    border: 4px solid green;
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 45px;
+    background-color: #b0f4a1;
+}
+
+#stegoBox {
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 650px;
+    margin-top: 1000px;
+    border: 4px solid green;
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 45px;
+    background-color: #b0f4a1;
+}
+
+#dimBox {
+   position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 650px;
+    margin-top: 1350px;
+    border: 4px solid green;
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 45px;
+    background-color: #b0f4a1; 
+}
+
+#footer {
+    position: absolute;
+    background-color: #008000;
+    text-align: left;
+	width: 99%;
+	padding: 1px;
+    margin-top: 1750px;
+	clear: both;
+}
