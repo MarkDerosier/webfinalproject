@@ -1,0 +1,114 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #CCE0D2;
+    font-family: courier;
+    margin: 0%;
+    padding-bottom: 0em;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: #B4DBB3;
+    margin: auto;
+    max-width: 45em;
+    padding: 2em;
+}
+
+
+h1 {
+    padding: 0em;
+    margin-bottom: 1em;
+    margin-top: 0em;
+    text-align: center;
+}
+
+
+p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+#footer {
+    background-color: #89AF98;
+}
+
+footer {
+    margin: auto;
+    max-width: 45em;
+    margin-top: 0em;
+    padding: 0ex;
+}
+
+
+figure {
+    margin: auto;
+    max-width: 30em;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+figure img {
+    width: 30em;
+}
+
+img.researcher { 
+    height: 10em;
+    margin: 1ex;
+}
+
+div.researchers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    display: block;
+    padding: 0em;
+    font-size: 1em;
+    position: fixed;
+    top: 15%;
+}
+
+nav a {
+    background-color: #B4DBB3;
+    text-decoration: none;
+    padding: .5em;
+    padding-left: 1.5em;
+    margin-bottom: 2ex;
+    display: block;
+    width: 7em;
+    text-align: left;
+}
+
+nav a:hover {
+    color: rgb(60,60,60);
+    background-color: rgb(240,240,240);
+}
+
+@media screen and (max-width: 65em) {
+
+    nav {
+        top: 0%;
+        width: 100%;
+        background-color: #B4DBB3;
+    }
+
+    nav a {
+        padding: 1em;
+        padding-top: 1em;
+        margin-bottom: 0em;
+        margin-right: 0em;
+        float: left;
+        text-align: center;
+    }
+}
