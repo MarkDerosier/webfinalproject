@@ -4,6 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
+<script src="../js/comment.js"></script>
+<script src="../js/loadcomments.js"></script>
+<script src="../js/writecomment.js"></script>
 <title>The Mesozoic Outpost</title>
 </head>
 <body>
@@ -64,8 +67,21 @@
 
 <p>The Cretaceous seas had many dangerous predators ranging from sharks to plesiosaurs. However, the largest of the killers during this time period were the mosasaurs.</p>
 
-
 </main>
+
+
+<write-comment>
+<form>
+    <input type="text" placeholder="your name!" name="commentauthor"><br />
+    <textarea cols="70" rows="5" placeholder="write a comment!" name="commentbody" id="cretaceous"></textarea><br />
+    <input type="submit">
+    <button type="button" onclick="localStorage.clear();">clear local storage</button>
+</form>
+</write-comment>
+
+<comments-section>
+</comments-section>
+
 
 
 <div id="footer">

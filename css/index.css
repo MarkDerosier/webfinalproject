@@ -71,6 +71,25 @@ div.researchers {
     justify-content: center;
 }
 
+comments-section, write-comment {
+    margin: auto;
+    margin-top: 2em;
+    max-width: 40em;
+    /*background-color: red;*/
+    width: 100%;
+}
+
+comment-container {
+    padding: 2em;
+    margin-bottom: 2em;
+    display: block;
+    background-color: #B4DBB3;
+}
+
+comment-body {
+    display: block;
+}
+
 nav {
     display: block;
     padding: 0em;
