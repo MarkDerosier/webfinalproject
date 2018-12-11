@@ -21,8 +21,7 @@
 <h1>Contact us</h1>
 
 
-<p>Have any questions about prehistoric life? Want to make a request for us to add another species? In our form, you can do just that. Please provide your name, email address, name of the person you wish to talk to, your request et
-c. and we'll respond back within 24 hours. Thank you and have a great day!</p>
+<p>Have any questions about prehistoric life? Want to make a request for us to add another species? In our form, you can do just that. Please provide your name, email address, name of the person you wish to talk to, your request etc. and we'll respond back within 24 hours. Thank you and have a great day!</p>
 
 
 <div class="researchers">
@@ -30,8 +29,10 @@ c. and we'll respond back within 24 hours. Thank you and have a great day!</p>
 <img src="../images/ian_malcolm.jpg" alt="mathematician" class="researcher">
 <img src="../images/sarah_harding.jpg" alt="biologist" class="researcher">
 </div>
+    
+<script type="text/javascript" src="../js/formvalidation.js"></script>
 
-<form method="get" action="http://www.randyconnolly.com/tests/process.php">
+<form method="get" action="http://www.randyconnolly.com/tests/process.php" name="mesoForm" onsubmit="return validate()">
     <fieldset>
     <legend>Submission</legend>
     <label>Name:  </label>
